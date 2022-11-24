@@ -1,0 +1,56 @@
+
+
+.baslik {
+    text-align: center;
+    flex-direction: row;
+}
+
+h1 {
+    color: black;
+} 
+
+h2 {
+    color: #4A154B;
+}
+
+
+h1, h2 {
+    font-size: calc(2rem + (18 * (100vw - 400px)/ 624)); /* web sitesinden forkadim*/
+    font-weight: 700;
+    line-height: 1.0625; 
+    letter-spacing: -1.6px;
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif; 
+    display: inline;
+    padding: 10px;
+}
+
+.baslikalti {
+    font-size: calc(1.125rem + (2 * (100vw - 400px)/ 624));
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.333;
+    letter-spacing: -.2px;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+
+.talktosales {
+    background-color: #611f69;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 6px;
+    border-radius:4px;
+    min-height:60px; 
+    min-width: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 19px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    justify-content: center;
+    
+} 
+.talktosales:hover {
+    background-color:#4A154B;
+    transition: 0.3s;
+}
